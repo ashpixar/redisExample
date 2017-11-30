@@ -13,7 +13,7 @@
     "ejs": "^2.4.2",
     "express": "^4.16.2",
     "morgan": "*",
-    "redis": "*"
+    "redis": "^2.8.0"
   },
   "repository": {
     "type": "git",
