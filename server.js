@@ -8,6 +8,6 @@ var redis = require('redis');
 const app = express()
 app.use(express.static('public'))
 
-var client = redis.createClient();
+//var client = redis.createClient();
 
 app.listen(process.env.PORT || 8080, () => console.log('all is ok'))
