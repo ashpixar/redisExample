@@ -9,5 +9,7 @@ const app = express()
 app.use(express.static('public'))
 
 //var client = redis.createClient();
+var client = require('redis').createClient(process.env.REDIS_URL);
+
 
 app.listen(process.env.PORT || 8080, () => console.log('all is ok'))
